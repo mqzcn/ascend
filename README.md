@@ -1,50 +1,3 @@
-# Contentful Ecommerce Starter Template
-
-An Ecommerce Starter Template powered by Next.js & Contentful, pre-designed with optimized & adjustable pages, components, and data management.
-
-![The homepage of the Ecommerce Starter Template](ecommerce-starter-template.jpg 'The homepage of the Ecommerce Starter Template')
-
-$~$
-
-## What is Contentful?
-
-[Contentful](https://www.contentful.com/) provides content infrastructure for digital teams to power websites, apps, and devices. Unlike a CMS, Contentful was built to integrate with the modern software stack. It offers a central hub for structured content, powerful management, and delivery APIs, and a customizable web app that enables developers and content creators to ship their products faster.
-
-$~$
-
-## DISCLAIMER ⚠️
-
-The Starter Templates experience is currently only available to new users.
-
-To benefit from this experience, please follow this link to create a new
-account and select the template to install: [https://www.contentful.com/starter-templates/ecommerce-website/sign-up/?action=create_starter_template](https://www.contentful.com/starter-templates/ecommerce-website/sign-up/?action=create_starter_template&utm_source=github.com&utm_medium=referral&utm_campaign=template-ecommerce-webapp-nextjs).
-
-Alternatively, to immediately start the auto installation of this template after creating a new account, please follow this link:
-[https://www.contentful.com/starter-templates/ecommerce-website/sign-up/?action=create_starter_template&template_name=ecommerce](https://www.contentful.com/starter-templates/ecommerce-website/sign-up/?action=create_starter_template&template_name=ecommerce&utm_source=github.com&utm_medium=referral&utm_campaign=template-ecommerce-webapp-nextjs).
-
-$~$
-
-## Begin your journey with Contentful and the Ecommerce Starter Template
-
-Follow this [guide](https://github.com/contentful/template-ecommerce-webapp-nextjs/blob/main/docs/tutorials/contentful-and-the-starter-template.md/?utm_source=github.com-guide&utm_medium=referral&utm_campaign=template-ecommerce-webapp-nextjs) to understand the relationship between
-Contentful and the Starter Template source code through guided steps:
-
-- Entry editing, and updates preview in the Starter Template application (online/locally)
-- Content type editing in the Contentful web app, as well as in the Starter Template's code
-
-$~$
-
-## Features
-
-- Composable content through powerful & flexible content modeling.
-- Localization ready.
-- SEO ready.
-- Server-side rendering with Next.js[^1].
-- Generation of GraphQL[^2] typed code (schema, and types), in sync with the content types through graphql-codegen[^3].
-- Enhanced Developer Experience with TypeScript[^4].
-
-$~$
-
 ## Getting started
 
 To get started, read the following guidelines.
@@ -74,11 +27,19 @@ $~$
 To install the necessary dependencies, run:
 
 ```bash
+npm install
+```
+or
+```bash
 yarn
 ```
 
-### Run the Starter Template in development mode
+### Run the app in development mode
 
+```bash
+npm run dev
+```
+or
 ```bash
 yarn dev
 ```
